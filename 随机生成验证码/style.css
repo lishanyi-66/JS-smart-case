@@ -9,19 +9,21 @@ body,html{
     align-items: center;
     justify-content: center;
 }
-.codeBox{
+#codeBox{
     width: 150px;
     height: 30px;
     border: 1px solid red;
     text-align: center;
-    box-sizing: border-box;
+    line-height: 30px;
+    /* background-color: #999; */
+    /* box-sizing: border-box; */
 
 }
-button{
+#btn{
     box-sizing: border-box;
     margin-left: 20px;
     border: none;
-    background-color: #999;
+    background-color:#f00;
     width: 90px;
     height: 30px;
     border-radius: 20px;
@@ -30,4 +32,6 @@ button{
     outline: none;
     text-align: center;
     cursor: pointer;
+    font-size: 15px;
+    line-height: 30px;
 }
