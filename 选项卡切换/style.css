@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #00695c;
+}
+.tab-control{
+    width: 600px;
+    height: 400px;
+    margin: 240px auto;
+    background-color:#00bcd4 ;
+}
+.tab-item{
+    background-color: #00695c;
+}
+.active{
+    background-color:#00bcd4;
+    /* color:teal */
+}
+.tab-item div{
+    width: 120px;
+    height: 45px;
+    /* float: left; */
+    /* 替换成行内块 */
+    display: inline-block;
+    /* background-color:#e91e63 ; */
+    text-align: center;
+    line-height: 45px;
+    cursor: pointer;
+    color: white;
+    /* margin:0 10px */
+}
+.tab-content{
+    width: 100%;
+    height: 240px;
+background-color:#00bcd4 ;
+margin: 40px auto;
+box-sizing: border-box;
+
+/* border-radius: 15px; */
+
+
+
+}
+.tab-content div{
+    width: 500px;
+    height: 280px;
+    background-color: #7986cb;
+    border-radius: 15px;
+    margin:25px auto;
+    padding: 20px;
+    box-sizing: border-box;
+    color: white;
+    display: none;
+
+}
